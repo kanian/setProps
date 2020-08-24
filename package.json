@@ -1,0 +1,26 @@
+{
+  "name": "setprops",
+  "version": "1.0.0",
+  "description": "Bulk-set properties on objects",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "test": "npm run compile && jest",
+    "testWithCoverage": "npm run compile && jest --coverage ",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "typescript",
+    "properties"
+  ],
+  "author": "Patrick Assoa Adou",
+  "license": "ISC",
+  "dependencies": {
+    "utility-types": "^3.10.0"
+  }
+}
